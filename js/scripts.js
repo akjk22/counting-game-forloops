@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function(event){
     $("form").submit(function(){
   var input1 = parseInt($("#num1").val());
   var input2 = parseInt($("#num2").val());
